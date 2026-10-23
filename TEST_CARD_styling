@@ -1,0 +1,105 @@
+.card {
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    color: #1e1e1e;
+    background-color: #fafafa;
+    padding: 12px;
+}
+
+.sentence-card {
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.direct {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #6a5acd;
+    margin-bottom: 8px;
+}
+
+.hidden {
+    display: none;
+}
+
+.tappable table,
+#qtable,
+#atable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.tappable td,
+.tappable th,
+#qtable td,
+#qtable th,
+#atable td,
+#atable th {
+    border: 1px solid #ccc;
+    padding: 8px 10px;
+}
+
+.tappable th,
+#qtable th,
+#atable th {
+    background-color: #eeeeee;
+}
+
+.tappable tr:nth-child(even),
+#qtable tr:nth-child(even),
+#atable tr:nth-child(even) {
+    background-color: transparent;
+}
+
+/* Row coloring after grading */
+tr.correct {
+    background-color: #d9f2d9 !important;
+}
+
+tr.wrong {
+    background-color: #f8d7d7 !important;
+}
+
+#answer {
+    margin: 16px 0;
+    border: none;
+    border-top: 2px solid #6a5acd;
+}
+
+#canswerresult {
+    margin-top: 12px;
+    font-size: 18px;
+}
+
+.small {
+    font-size: 14px;
+    color: #555555;
+    margin-top: 10px;
+}
+
+#explanation {
+    background-color: #fff8e1;
+    border-left: 4px solid #f0ad4e;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+#sources,
+#extra1 {
+    border-left: 4px solid #cccccc;
+    padding: 6px 12px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    transform: scale(1.2);
+    margin-right: 6px;
+}
+
+label {
+    cursor: pointer;
+}
